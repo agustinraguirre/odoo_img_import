@@ -6,7 +6,7 @@ Script en Python para cargar imágenes masivamente a productos en **Odoo 16** a 
 
 - Carga de imagen principal (`image_1920`) basada en nombre de archivo.
 - Carga de múltiples imágenes adicionales (`product.image`) evitando duplicados.
-- Validación básica de formato de imagen.
+- Validación básica de formato de imagen: Imagen Principal = SKU ; Imagenes complementarias = SKU (2) ; SKU (3) ;...
 - Reporte de errores por imagen no válida o producto no encontrado.
 
 ## 🛠️ Requisitos
